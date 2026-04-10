@@ -1,0 +1,5 @@
+Initial release of Koydo CS Executive Entrance Test Prep.
+
+• Practice questions
+• Score tracking
+• AI tutor integration

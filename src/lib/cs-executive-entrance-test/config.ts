@@ -1,0 +1,45 @@
+// CS Executive Entrance Test Configuration
+// Generated from top_200_exam_universe_seed.csv
+
+export const EXAM_CONFIG = {
+  examId: "EXAM062",
+  slug: "cs-executive-entrance-test",
+  name: "CS Executive Entrance Test",
+  fullName: "CSEET",
+  alias: "CSEET",
+  family: "ICSI",
+  category: "Professional",
+  subcategory: "Company secretary entry",
+  country: "India",
+  region: "South Asia",
+  languages: ["English"],
+  estimatedAnnualTakers: "varies",
+  testingWindow: "Multiple",
+  schedulePattern: "4 cycles/year",
+  ageGroup: "17-25",
+  targetUser: "Commerce/law student",
+  delivery: "Remote/computer-based",
+  questionTypes: ["MCQ + viva elements"],
+  adaptivity: "Linear",
+  sections: "Business communication, legal, economics",
+  scoringMode: "Pass/fail",
+  essayOrSpeaking: "Viva later",
+  ipRisk: "Low",
+  contentReuse: "commerce_legal",
+  uiEngine: "objective_plus_oral",
+  monetizationPotential: "Low",
+  tier: "Tier 5",
+  launchWave: "Wave 7",
+  themeColor: "#7C3AED",
+  themeColorDark: "#6D28D9",
+  localizationComplexity: "Low",
+  offlineNeeded: false,
+  mobileFirst: true,
+  locale: "en",
+  isRTL: false,
+  freemiumGate: {
+    dailyQuestions: 10,
+  },
+} as const;
+
+export type ExamConfig = typeof EXAM_CONFIG;
